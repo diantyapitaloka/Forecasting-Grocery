@@ -4,6 +4,7 @@
 - You can import your own data into Colab notebooks from your Google Drive account, including from spreadsheets, as well as from Github and many other sources. To learn more about importing data, and how Colab can be used for data science, see the links below under Working with Data.
 - Data Ingestion: This is the first step where you bring your raw sales data into the notebook environment. Using the methods mentioned earlier, like mounting Google Drive, ensures your data is persistent and accessible across different coding sessions.
 - Exploratory Data Analysis (EDA): Before forecasting, you must clean your data to handle missing values or "out of stock" anomalies. You’ll use libraries like Pandas to group data by product category and Matplotlib or Seaborn to visualize sales spikes.
+- Feature Engineering: This involves creating new data points that help a model learn, such as "Is it a weekend?" or "Is there a promotion running?" These extra signals are crucial for grocery stores where consumer behavior changes drastically during paydays or holidays.
 
 # 🧁🍫🍬 Forecasting-Grocery Code 🍬🍫🧁
 
