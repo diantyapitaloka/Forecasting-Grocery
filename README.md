@@ -7,6 +7,7 @@
 - Feature Engineering: This involves creating new data points that help a model learn, such as "Is it a weekend?" or "Is there a promotion running?" These extra signals are crucial for grocery stores where consumer behavior changes drastically during paydays or holidays.
 - Model Selection: Depending on your goals, you might use statistical models like ARIMA for simple trends or machine learning models like XGBoost for complex relationships. Colab’s high RAM and GPU options make it easy to train these models much faster than a standard laptop.
 - Time-Series Cross-Validation: Unlike standard machine learning where data is shuffled, grocery forecasting requires a "rolling window" approach to validation. This ensures that you are training on past data to predict the future, preventing "data leakage" and providing a more realistic estimate of how your model will perform in a real-world retail environment.
+- Hyperparameter Optimization with Optuna: To squeeze the most accuracy out of your models, you can utilize libraries like Optuna to automate the search for the best configuration. Google Colab’s parallel processing capabilities allow you to run hundreds of trials simultaneously, fine-tuning variables like learning rates or tree depth to minimize your Mean Absolute Percentage Error (MAPE).
 
 # 🧁🍫🍬 Forecasting-Grocery Code 🍬🍫🧁
 
