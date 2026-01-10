@@ -9,6 +9,7 @@
 - Time-Series Cross-Validation: Unlike standard machine learning where data is shuffled, grocery forecasting requires a "rolling window" approach to validation. This ensures that you are training on past data to predict the future, preventing "data leakage" and providing a more realistic estimate of how your model will perform in a real-world retail environment.
 - Hyperparameter Optimization with Optuna: To squeeze the most accuracy out of your models, you can utilize libraries like Optuna to automate the search for the best configuration. Google Colab’s parallel processing capabilities allow you to run hundreds of trials simultaneously, fine-tuning variables like learning rates or tree depth to minimize your Mean Absolute Percentage Error (MAPE).
 - External Signal Integration: Grocery sales are often influenced by factors outside of your internal database, such as local weather patterns or nearby community events. By using Colab’s ability to scrape web data or connect to public APIs, you can integrate external variables like a sudden heatwave, which might trigger a significant spike in ice cream and beverage sales.
+- Model Interpretability with SHAP: It is not enough to know what the forecast is; stakeholders often need to know why a certain prediction was made. By implementing SHAP (SHapley Additive exPlanations) values, you can generate visual charts that show exactly how much a specific holiday or a price discount contributed to the final predicted sales volume for each SKU.
 
 # 🧁🍫🍬 Forecasting-Grocery Code 🍬🍫🧁
 
