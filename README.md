@@ -2,6 +2,7 @@
 
 - With Colab you can harness the full power of popular Python libraries to analyze and visualize data. The code cell below uses numpy to generate some random data, and uses matplotlib to visualize it. To edit the code, just click the cell and start editing.
 - You can import your own data into Colab notebooks from your Google Drive account, including from spreadsheets, as well as from Github and many other sources. To learn more about importing data, and how Colab can be used for data science, see the links below under Working with Data.
+- Data Ingestion: This is the first step where you bring your raw sales data into the notebook environment. Using the methods mentioned earlier, like mounting Google Drive, ensures your data is persistent and accessible across different coding sessions.
 
 # 🧁🍫🍬 Forecasting-Grocery Code 🍬🍫🧁
 
