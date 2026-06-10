@@ -30,7 +30,7 @@
 
 # 🧁🍫🍬 Forecasting-Grocery Code 🍬🍫🧁
 
-Please find the code below :
+Please find the code below:
 ```
 
 
