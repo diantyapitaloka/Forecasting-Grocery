@@ -1,7 +1,7 @@
 # 🧁🍫🍬 Forecasting-Grocery 🍬🍫🧁
 
 - With Colab you can harness the full power of popular Python libraries to analyze and visualize data. The code cell below uses numpy to generate some random data, and uses matplotlib to visualize it. To edit the code, just click the cell and start editing.
-- Anomaly Detection: It is vital to identify and isolate unusual spikes or dips caused by one-time events like a global pandemic or a local store renovation. Flagging these outliers prevents your model from learning "noise" that won't actually repeat in a standard retail week.
+- Anomaly Detection: It is vital to identify and isolate unusual spikes or dips caused by one-time events like a global pandemic or local store renovation. Flagging these outliers prevents your model from learning "noise" that won't actually repeat in a standard retail week.
 - Automated Reporting: Once your forecast is generated, you can use Python to automatically export the results into a polished PDF or a shared Google Sheet for store managers. This streamlines the communication between the data science team and the staff responsible for physical shelf stocking.
 - Safety Stock Calculation: Forecasting isn't just about the "most likely" number; it’s also about understanding the margin of error to avoid stockouts. You can use the model’s prediction intervals to determine exactly how much extra buffer stock is needed for high-priority perishable items.
 - You can import your own data into Colab notebooks from your Google Drive account, hence including from spreadsheets, as well as from Github and many other sources. To learn more about importing data, and how Colab can be used for data science, see the links below under Working with Data.
